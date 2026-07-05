@@ -1,0 +1,44 @@
+[
+    {
+        "name": "ASUS Vivobook",
+        "category": "accessories",
+        "price": "120000",
+        "count": 1,
+        "img": "/assets/accessories/product1.jpg"
+    },
+    {
+        "name": "Gaming Keyboard",
+        "category": "accessories",
+        "price": "8000",
+        "count": 2,
+        "img": "/assets/accessories/product4.jpg"
+    },
+    {
+        "name": "Gaming Headset",
+        "category": "audio",
+        "price": "16000",
+        "count": 2,
+        "img": "/assets/audio/product1.jpg"
+    },
+    {
+        "name": "Game Controller",
+        "category": "audio",
+        "price": "8000",
+        "count": 1,
+        "img": "/assets/audio/product3.jpg"
+    },
+    {
+        "name": "Iphone 15",
+        "category": "devices",
+        "price": "75000",
+        "count": 1,
+        "img": "/assets/devices/product1.jpg"
+    },
+    {
+        "name": "Apple iPad",
+        "category": "devices",
+        "price": "30000",
+        "count": 1,
+        "img": "/assets/devices/product5.jpg"
+    }
+]

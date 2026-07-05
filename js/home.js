@@ -2,8 +2,8 @@ import devicesData from '../data/products/devices/data.json' with {type: 'json'}
 import accessoriesData from '../data/products/accessories/data.json' with {type: 'json'};
 import audioData from '../data/products/audio/data.json' with {type: 'json'};
 
-function setBody(data, heading, element){
-    let tempBody = ''
+function setBody(data, heading, element, ){
+    let tempBody = '';
     data.forEach((data, idx) => {    
         tempBody += `
             <div class="item">
@@ -22,7 +22,7 @@ function setBody(data, heading, element){
     });
     tempBody = `
         <h3 style="margin-left: 30px;">${heading}</h3>
-        <div class="row1"> ${tempBody} </div>
+        <div class="row"> ${tempBody} </div>
     `;
     return tempBody
 }

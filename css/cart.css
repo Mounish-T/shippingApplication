@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: #FFFFFF   ;
+    background-color: #FFFFFF;
+    margin-bottom: 80px;
 }
 
 nav{
@@ -50,4 +51,111 @@ nav{
 .profile-section i{
     padding: 0 20px 0px 0;
     font-size: 35px;
+}
+
+.row{
+    display: flex;
+    gap: 40px;
+    margin: 0px 50px 20px 50px;
+}
+
+.item{
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+[class $= '-img'] img{
+    height: 280px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    /* border: solid 1px black; */
+}
+
+[class $= '-info']{
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-around;
+    background-color: aqua;
+    border-radius: 0 0 20px 20px;
+}
+
+[class $= '-info'] button{
+    height: 40px;
+    width: 70px;
+    padding: 5px;
+    font-size: smaller;
+    font-weight: bold;
+    background-color: #e9f264;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.prod-count{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.unit{
+    padding: 0px 10px;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+
+.value{
+    font-weight: bold;
+    color: rgba(231, 13, 21, 0.948);
+}
+
+.collections{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.collections p{
+    height: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 12px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(34, 141, 180);
+    background-color: rgba(121, 7, 7, 0.693);
+}
+
+.collections span{
+    color: rgb(221, 255, 0);
+    font-size: large;
+}
+
+.payment-section{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    background-color: rgb(42, 165, 83);
+}
+
+.payment-btn button{
+    margin: 12px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #add3ac;
+    background-color: rgba(37, 7, 121, 0.693);
+    cursor: pointer;
 }
