@@ -31,6 +31,12 @@ body{
     color: #121212;
 }
 
+.isactive{
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
 .profile-section{
     display: flex;
     align-items: center;
@@ -60,10 +66,10 @@ body{
 .row1{
     display: flex;
     gap: 40px;
-    margin: 30px 50px;
+    margin: 20px 50px;
 }
 
-.item1{
+.item{
     height: 350px;
     width: 250px;
     display: flex;
@@ -72,14 +78,14 @@ body{
     border-radius: 20px;
 }
 
-.item1-img img{
+[class $= '-img'] img{
     height: 280px;
     width: 100%;
     border-radius: 20px 20px 0 0;
     /* border: solid 1px black; */
 }
 
-.item1-info{
+[class $= '-info']{
     padding: 10px;
     height: 50px;
     display: flex;
@@ -89,7 +95,7 @@ body{
     border-radius: 0 0 20px 20px;
 }
 
-.item1-info button{
+[class $= '-info'] button{
     height: 40px;
     width: 70px;
     padding: 5px;

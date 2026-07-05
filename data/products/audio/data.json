@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Gaming Headset",
+        "category": "audio",
+        "price": "16000",
+        "img": "/assets/audio/product1.jpg"
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "category": "audio",
+        "price": "2000",
+        "img": "/assets/audio/product2.jpg"
+    },
+    {
+        "name": "Game Controller",
+        "category": "audio",
+        "price": "8000",
+        "img": "/assets/audio/product3.jpg"
+    },
+    {
+        "name": "Neckband",
+        "category": "audio",
+        "price": "2000",
+        "img": "/assets/audio/product4.jpg"
+    },
+    {
+        "name": "Earbuds",
+        "category": "audio",
+        "price": "1500",
+        "img": "/assets/audio/product5.jpg"
+    }
+]

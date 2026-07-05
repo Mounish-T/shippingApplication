@@ -1,0 +1,32 @@
+[
+    {
+        "name": "ASUS Vivobook",
+        "category": "accessories",
+        "price": "120000",
+        "img": "/assets/accessories/product1.jpg"
+    },
+    {
+        "name": "ORICO Hard Drive",
+        "category": "accessories",
+        "price": "5000",
+        "img": "/assets/accessories/product6.jpg"
+    },
+    {
+        "name": "Dell Inspiron 24",
+        "category": "accessories",
+        "price": "67000",
+        "img": "/assets/accessories/product2.jpg"
+    },
+    {
+        "name": "Gaming Keyboard",
+        "category": "accessories",
+        "price": "8000",
+        "img": "/assets/accessories/product4.jpg"
+    },
+    {
+        "name": "TP-Link Router",
+        "category": "accessories",
+        "price": "8500",
+        "img": "/assets/accessories/product5.jpg"
+    }
+]

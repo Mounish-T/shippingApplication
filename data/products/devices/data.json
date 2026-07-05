@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Iphone 15",
+        "category": "devices",
+        "price": "75000",
+        "img": "/assets/devices/product1.jpg"
+    },
+    {
+        "name": "Samsung Watch",
+        "category": "devices",
+        "price": "15000",
+        "img": "/assets/devices/product2.jpg"
+    },
+    {
+        "name": "Lenovo Tab Plus",
+        "category": "devices",
+        "price": "27000",
+        "img": "/assets/devices/product3.jpg"
+    },
+    {
+        "name": "Vivo Y28s 5G",
+        "category": "devices",
+        "price": "17000",
+        "img": "/assets/devices/product4.jpg"
+    },
+    {
+        "name": "Apple iPad",
+        "category": "devices",
+        "price": "30000",
+        "img": "/assets/devices/product5.jpg"
+    }
+]
