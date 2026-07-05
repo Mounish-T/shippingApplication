@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFFF   ;
+}
+
+nav{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    background-color: #d8c413;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    /* color: #FFFFFF; */
+}
+
+.nav-section{
+    display: flex;
+    justify-content: start;
+    gap: 100px;
+    align-items: center;
+    margin: 22px;
+}
+
+.nav-btn{
+    text-decoration: none;
+    font-weight: bold;
+    color: #121212;
+}
+
+.profile-section{
+    display: flex;
+    align-items: center;
+}
+
+.profile-section p{
+    display: inline-block;
+}
+
+.profile-section i{
+    padding: 0 20px 0px 0;
+    font-size: 35px;
+}
