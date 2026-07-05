@@ -4,56 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Cart</title>
+
     <script src="https://kit.fontawesome.com/aa8d9a6dd9.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="../css/cart.css">
 </head>
+
 <body>
+
     <nav>
-        <nav class="nav-section">
+
+        <div class="nav-section">
             <a href="home.html" class="nav-btn">Home</a>
             <a href="cart.html" class="nav-btn isactive">My Cart</a>
             <a href="orders.html" class="nav-btn">My Orders</a>
-        </nav>
+        </div>
+
         <div class="profile-section">
             <div>
                 <p>Welcome, <span>Mounish</span></p>
             </div>
+
             <div>
                 <i class="fa-solid fa-circle-user"></i>
             </div>
         </div>
+
     </nav>
 
     <div class="cart-body" id="cart-body">
-        <!-- <h3 style="margin: 30px;">All Products (10)</h3>
-        <div class="row">
-            <div class="item">
-                <div class="item1-img">
-                    <img src="../assets/accessories/product1.jpg" alt="">
+        <!-- JS script-->
+    </div>
+
+    <div class="payment-section" id="pay-section">
+        <!-- JS script-->
+    </div>
+
+    <!-- Floating Address Button -->
+    <div class="address-btn" id="address-btn">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Delivery Address</span>
+    </div>
+
+    <!-- Address Dialog -->
+    <dialog id="address-dialog">
+
+        <div class="dialog-header">
+
+            <h2>
+                <i class="fa-solid fa-location-dot"></i>
+                Delivery Address
+            </h2>
+
+            <button id="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+        <div class="dialog-body">
+
+            <div id="address-view"></div>
+
+            <div id="address-form" style="display:none;">
+
+                <div>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name">
                 </div>
-                <div class="item$1-info">
-                    <div class="product1-spec">
-                        <p><b>Asus Vivobook</b></p>
-                        <p>Price: Rs. 2000</p>
-                    </div>
-                    <div class="prod-count">
-                        <p class="unit">-</p>
-                        <p class="value">10</p>
-                        <p class="unit">+</p>
-                    </div>
+
+                <div>
+                    <label for="mobile">Mobile Number</label>
+                    <input type="text" id="mobile">
+                </div>
+
+                <div>
+                    <label for="house">House / Flat</label>
+                    <input type="text" id="house">
+                </div>
+
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" id="city">
+                </div>
+
+                <div>
+                    <label for="state">State</label>
+                    <input type="text" id="state">
+                </div>
+
+                <div>
+                    <label for="pin">PIN Code</label>
+                    <input type="text" id="pin">
                 </div>
             </div>
-        </div> -->
-    </div>
-    <div class="payment-section">
-        <div class="collections">
-            <p>Price: <span>Rs. 20000</span></p>
-            <p>Quantity: <span>25</span></p>
+
         </div>
-        <div class="payment-btn">
-            <button>Make Payment</button>
+
+        <div class="dialog-footer">
+
+            <button id="edit-btn">
+                <i class="fa-solid fa-pen"></i>
+                Edit
+            </button>
+
+            <button id="save-btn" style="display:none;">
+                <i class="fa-solid fa-floppy-disk"></i>
+                Save
+            </button>
+
         </div>
-    </div>
+
+    </dialog>
+
     <script type="module" src="../js/cart.js"></script>
+
 </body>
 </html>
