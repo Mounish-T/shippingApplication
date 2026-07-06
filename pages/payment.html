@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="../css/payment.css">
+</head>
+<body>
+    <nav>
+
+        <div class="nav-section">
+            <h3>Payment Method</h3>
+        </div>
+
+        <div class="profile-section">
+            <div>
+                <p>Welcome, <span>Mounish</span></p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="pay-body">
+        <div class="total-amount">
+            <h3 id="order-id">Order Id: </h3>
+            <h4>Amount: 12000</h4>
+        </div>
+        <div class="pay-section">
+            <h3>Mode of Payment</h3>
+            <div>
+                <div class="upi" id="upi">
+                    Via UPI
+                </div>
+                <div class="upi-body" id="upi-body">
+                    <input type="text" placeholder="Enter your UPI ID" class="upi-input" required>
+                </div>
+                <div class="card" id="card">
+                    Via Credit Card
+                </div>
+                <div class="card-body" id="card-body">
+                    <h3>Card Details:</h3>
+                    <form class="form-content">
+                        <div>
+                            <label>Card No: </label>
+                            <input type="text" placeholder="Enter Card No: " required>
+                        </div>
+                        <div>
+                            <label>Card Holder Name: </label>
+                            <input type="text" placeholder="Enter Card Holder Name: " required>
+                        </div>
+                        <div>
+                            <label>Expiry Date: </label>
+                            <input type="text" id="expiry" placeholder="MM / YY" inputmode="numeric" maxlength="7" autocomplete="cc-exp" required>
+                        </div>
+                        <div>
+                            <label>CVV: </label>
+                            <input type="text" placeholder="YYY" id="cvv" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="action-btn">
+                    <button id="cancel">Back</button>
+                    <button id="pay" hidden>Pay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/payment.js"></script>
+</body>
+</html>

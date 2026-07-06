@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFFF   ;
+}
+
+nav{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    background-color: #d8c413;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: start;
+    gap: 100px;
+    align-items: center;
+    margin: 22px;
+}
+
+.profile-section{
+    display: flex;
+    align-items: center;
+}
+
+.profile-section p{
+    display: inline-block;
+    width: 80px;
+}
+
+.profile-section i{
+    padding: 0 20px 0px 0;
+    font-size: 35px;
+}
+
+.pay-body{
+    margin: 30px;
+    justify-self: center;
+}
+
+.total-amount{
+    margin: 30px 0px;
+    font-size: 17px;
+    color: brown;
+}
+
+#order-id{
+    color: blueviolet;
+}
+
+.pay-section{
+    border: 2px solid black;
+    width: 550px;
+    padding: 20px;
+}
+
+.upi, .card{
+    display: flex;
+    margin: 20px;
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+    padding-left: 20px;
+    border: solid 1px black;
+    align-items: center;
+    cursor: pointer;
+}
+
+.isactive{
+    border: 2px solid rgb(13, 235, 13);
+    background-color: rgb(178, 174, 174);
+    color: rgb(225, 15, 29);
+    font-weight: bold;
+}
+
+.upi-body, .card-body{
+    margin: 30px;
+    font-size: 17px;
+    display: none;
+}
+
+.upi-input, .form-content input{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size: 17px;
+    border: 2px solid black ;
+}
+
+.form-content{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black ;
+
+}
+
+#expiry{
+    width: 70px;
+}
+
+#cvv{
+    width: 40px;
+}
+
+.action-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-btn button{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#cancel{
+    background-color: rgb(245, 53, 53)
+}
+
+#pay{
+    background-color: rgba(9, 191, 9, 0.944);
+}

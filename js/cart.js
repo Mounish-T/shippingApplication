@@ -1,4 +1,6 @@
 let data = JSON.parse(localStorage.getItem("cart")) || [];
+let paymentStatus = JSON.parse(localStorage.getItem('payment-status'));
+console.log(paymentStatus);
 
 function calculateCartValue() {
     let cost = 0,
@@ -22,6 +24,10 @@ function updatePayment() {
         <p>Price: <span>Rs. ${priceData.cost}</span></p>
         <p>Quantity: <span>${priceData.itemCount}</span></p>
     `;
+}
+
+if(paymentStatus){
+    // updatePayment();
 }
 
 let cartBody = document.getElementById('cart-body');
@@ -137,7 +143,9 @@ document.getElementById('pay-btn').addEventListener('click', () => {
 
     updatePayment();
 
-    alert("Payment Successful!");
+    window.location.href = 'payment.html';
+
+    // alert("Payment Successful!");
 });
 
 const dialog = document.getElementById("address-dialog");
